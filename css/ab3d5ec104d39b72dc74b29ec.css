@@ -1,0 +1,56 @@
+:root {
+    --sb-black: #000;
+    --sb-darkgrey: #5c554f;
+    --sb-grey: #827a6f;
+    --sb-lightgrey: #cec7b5;
+    --sb-white: #f7f4eb;
+    --sb-red: #cd4d4c;
+    --sb-green: #4f5e4f;
+    --sb-brown: #6e4c43;
+    --sb-yellow: #ecd189;
+    --sb-tan: #ffc5b0;
+    --sb-lightblue: #b7deed;
+    --sb-blue: #424f6f;
+}
+
+@font-face {
+    font-family: 'GT Haptik';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/59639/gt-haptik-regular-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/59639/gt-haptik-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GT Haptik';
+    font-style: normal;
+    font-weight: bold;
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/59639/gt-haptik-bold-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/59639/gt-haptik-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GT Haptik';
+    font-style: normal;
+    font-weight: 900;
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/59639/gt-haptik-black-webfont.woff2') format('woff2'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/59639/gt-haptik-black-webfont.woff') format('woff');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: var(--sb-black);
+    color: var(--sb-white);
+    font-family: 'GT Haptik', sans-serif;
+    font-size: 1.5vw;
+    min-height: 100%;
+    text-align: center;
+}
+
+strong,
+.strong {
+    font-weight: 900;
+}
